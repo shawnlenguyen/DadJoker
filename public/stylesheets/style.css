@@ -1,0 +1,12 @@
+.main {
+    min-height: 100vh;
+}
+
+.jetBrainMono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#btnJoke:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(171, 100%, 29%);
+}

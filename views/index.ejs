@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DadJoker | Home</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <section class="hero is-primary is-fullheight jetBrainMono">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="container is-max-desktop">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="/">
+                            <h1 class="is-size-3 is-size-4-mobile has-text-weight-bold">DadJoker</h1>
+                        </a>
+                        <span class="navbar-burger" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroC" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="/">Home</a>
+                            <a class="navbar-item" href="/about">About</a>
+                            <!-- <a class="navbar-item">Contact</a> -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body level">
+            <div class="container is-max-desktop">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column">
+                            <p class="title is-size-1 is-size-2-mobile has-text-centered-mobile">Come to get a good laugh</p>
+                            <p class="subtitle is-size-3 is-size-5-mobile has-text-centered-mobile">and a little cringe</p>
+                        </div>
+                        <div class="column">
+                            <img id="dad" src="/assets/Saly-11.svg" alt="dad"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">Your dad joke:</p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="level-item has-text-centered" id="joke">Click new joke to start!</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#" class="card-footer-item" id="btnJoke">New Joke</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer jetBrainMono">
+        <div class="content has-text-centered">
+            <p>Developed & Designed by Shawn Nguyen</p>
+            <a href="https://bulma.io">
+                <img src="https://bulma.io/images/made-with-bulma--black.png" alt="Made with Bulma" width="256" height="48">
+            </a>
+        </div>
+    </footer>
+    
+    <script src="/javascripts/index.js"></script>
+</body>
+
+</html>
